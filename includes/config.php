@@ -21,14 +21,14 @@ if (session_status() === PHP_SESSION_NONE) {
 define('DB_HOST', 'localhost');
 define('DB_NAME', 'online_resume_system');
 define('DB_USER', 'root');
-define('DB_PASS', '');
+define('DB_PASS', 'root');
 define('DB_CHARSET', 'utf8mb4');
 
 // =====================================================
 // Application Configuration
 // =====================================================
 define('APP_NAME', 'Online Resume System');
-define('APP_URL', 'http://localhost/Online%20Resume%20System');
+define('APP_URL', 'http://localhost:8000');
 define('APP_VERSION', '1.0.0');
 
 // =====================================================
